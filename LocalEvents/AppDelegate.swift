@@ -12,10 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var gameScore = PFObject(className: "GameScore")
+    var query = PFQuery(className: "GameScore")
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+    
+        Parse.setApplicationId("QL3qgx8U67gjLdiaYkw2GYNZFHME2QvxUCcKSQ6S", clientKey: "HsaFD7selFIC8Y0uQ4IGhxzOjQJazKvtaoK9n6TT")
+        
+      
+
+            
         return true
     }
 
