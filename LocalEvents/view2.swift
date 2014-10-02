@@ -18,7 +18,7 @@ class view2: UIViewController {
     @IBAction func signUp(sender: UIButton) {
         var user = PFUser()
         // Check that email and password are not blank
-        if email.text != "" && password.text != "" {
+        if !email.text.isEmpty || !password.text.isEmpty {
         
         user.username = email.text
         user.password = password.text
