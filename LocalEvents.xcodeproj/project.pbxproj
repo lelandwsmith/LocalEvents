@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D5EA7C819DD06EE00C16A30 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA7C719DD06EE00C16A30 /* view2.swift */; };
+		2D5EA7CA19DD0E7800C16A30 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA7C919DD0E7800C16A30 /* login.swift */; };
 		2DB147ED19D102FF0087FBE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB147EC19D102FF0087FBE6 /* AppDelegate.swift */; };
 		2DB147EF19D102FF0087FBE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB147EE19D102FF0087FBE6 /* ViewController.swift */; };
 		2DB147F219D102FF0087FBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB147F019D102FF0087FBE6 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D5EA7C719DD06EE00C16A30 /* view2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
+		2D5EA7C919DD0E7800C16A30 /* login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		2DB147E719D102FF0087FBE6 /* LocalEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB147EB19D102FF0087FBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB147EC19D102FF0087FBE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				2DB147EC19D102FF0087FBE6 /* AppDelegate.swift */,
+				2D5EA7C719DD06EE00C16A30 /* view2.swift */,
+				2D5EA7C919DD0E7800C16A30 /* login.swift */,
 				2DB147EE19D102FF0087FBE6 /* ViewController.swift */,
 				2DB147F019D102FF0087FBE6 /* Main.storyboard */,
 				2DB147F319D102FF0087FBE6 /* Images.xcassets */,
@@ -265,6 +271,8 @@
 			files = (
 				2DB147EF19D102FF0087FBE6 /* ViewController.swift in Sources */,
 				2DB147ED19D102FF0087FBE6 /* AppDelegate.swift in Sources */,
+				2D5EA7C819DD06EE00C16A30 /* view2.swift in Sources */,
+				2D5EA7CA19DD0E7800C16A30 /* login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
