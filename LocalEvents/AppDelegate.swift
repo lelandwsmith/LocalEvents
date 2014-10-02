@@ -12,8 +12,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var gameScore = PFObject(className: "GameScore")
-    var query = PFQuery(className: "GameScore")
+    var userInfo = PFObject(className: "userInfo")
+    var query = PFQuery(className: "userInfo")
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.

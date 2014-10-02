@@ -211,6 +211,7 @@
 				TargetAttributes = {
 					2DB147E619D102FF0087FBE6 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = M8579RUEVZ;
 					};
 					2DB147FB19D102FF0087FBE6 = {
 						CreatedOnToolsVersion = 6.0;
@@ -387,6 +388,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -394,6 +397,7 @@
 				INFOPLIST_FILE = LocalEvents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "LocalEvents/LocalEvents-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -404,6 +408,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -411,6 +417,7 @@
 				INFOPLIST_FILE = LocalEvents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "LocalEvents/LocalEvents-Bridging-Header.h";
 			};
 			name = Release;
@@ -468,6 +475,7 @@
 				2DB1480819D102FF0087FBE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DB1480919D102FF0087FBE6 /* Build configuration list for PBXNativeTarget "LocalEventsTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +484,7 @@
 				2DB1480B19D102FF0087FBE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
