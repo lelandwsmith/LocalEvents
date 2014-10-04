@@ -24,6 +24,7 @@ class login: UIViewController {
                 success.message = "Login Successful!"
                 success.addButtonWithTitle("Get Started")
                 success.show()
+                self.performSegueWithIdentifier("valid", sender: self)
                 
             } else {
                 // The login failed. Check error to see why.
